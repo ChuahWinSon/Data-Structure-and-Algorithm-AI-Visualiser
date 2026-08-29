@@ -1,10 +1,6 @@
 # DSA Whiteboard — backend proxy
 
-The claude.ai artifact version works without an API key because artifacts get a
-special built-in proxy to `api.anthropic.com`. Outside claude.ai, you need your
-own real API key — and it can never live in browser code, or anyone could read
-it out of your site's network requests. This tiny server holds the key instead
-and forwards requests on the frontend's behalf.
+![example](example.png)
 
 ## Setup
 
